@@ -237,3 +237,95 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+label {
+    width:12em;
+    text-align: left;
+}
+.portfolio-item1
+{
+
+    overflow :hidden;
+}
+
+.portfolio-item2
+{
+
+    overflow :hidden;
+}
+
+.portfolio-item3
+{
+
+    overflow :hidden;
+}
+
+.portfolio-item4
+{
+
+    overflow :hidden;
+}
+
+.portfolio-item1:hover .portfolio-item1-text {
+   //display: block;
+   visibility: visible;
+}
+
+.portfolio-item2:hover .portfolio-item2-text {
+   //display: block;
+   visibility: visible;
+}
+
+.portfolio-item3:hover .portfolio-item3-text {
+   //display: block;
+   visibility: visible;
+}
+
+.portfolio-item4:hover .portfolio-item4-text {
+   //display: block;
+   visibility: visible;
+}
+
+.portfolio-item1-text {
+    //display: none;
+    position: absolute;
+    visibility: hidden;
+    transform:translateY(-100%);
+    top:100%;
+    width: 100%;
+    text-align: center;
+    //border: red 2px solid;
+}
+
+.portfolio-item2-text {
+    //display: none;
+    position: absolute;
+    visibility: hidden;
+    transform:translateY(-100%);
+    top:100%;
+    width: 100%;
+    text-align: center;
+    //border: red 2px solid;
+}
+
+.portfolio-item3-text {
+    //display: none;
+    position: absolute;
+    visibility: hidden;
+    transform:translateY(-100%);
+    top:100%;
+    width: 100%;
+    text-align: center;
+    //border: red 2px solid;
+}
+
+.portfolio-item4-text {
+    //display: none;
+    position: absolute;
+    visibility: hidden;
+    transform:translateY(-100%);
+    top:100%;
+    width: 100%;
+    text-align: center;
+    //border: red 2px solid;
+}
